@@ -1,3 +1,14 @@
 p {
   font-family: Lato;
 }
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box-div-externo {
+  height: 350px;
+  width: 500px;
+  background-color: silver;
+}

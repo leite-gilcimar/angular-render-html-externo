@@ -1,16 +1,30 @@
 <hello name="{{ name }}"></hello>
 <p>Start editing to see some magic happen :)</p>
 
-<div #divExterno></div>
-
-<carousel>
-<slide>
-  <img src="assets/images/nature/1.jpg" alt="first slide" style="display: block; width: 100%;">
-</slide>
-<slide>
-  <img src="assets/images/nature/2.jpg" alt="second slide" style="display: block; width: 100%;">
-</slide>
-<slide>
-  <img src="assets/images/nature/3.jpg" alt="third slide" style="display: block; width: 100%;">
-</slide>
-</carousel>
+<div class="carousel-container">
+  <carousel>
+    <slide>
+      <div class="box-div-externo">
+        <div #divExterno1></div>
+      </div>
+    </slide>
+    <slide>
+      <div class="box-div-externo">
+        <div #divExterno2></div>
+      </div>
+    </slide>
+    <slide>
+      <div class="box-div-externo">
+        <div #divExterno3></div>
+      </div>
+    </slide>
+    <slide>
+      <div class="box-div-externo">
+        <div>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+    </slide>
+  </carousel>
+</div>
