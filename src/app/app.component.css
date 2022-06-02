@@ -11,5 +11,6 @@ p {
   height: 350px;
   width: 500px;
   padding: 25px;
+  border-radius: 5px;
   background-color: rgb(213, 216, 42);
 }
