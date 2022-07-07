@@ -25,8 +25,8 @@ p {
   border-radius: 50%; */
 }
 
-::ng-deep .carousel .carousel-indicators{
-  background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+::ng-deep .carousel .carousel-indicators li{
+  background-color: red;
 }
 
 .box-div-externo {
